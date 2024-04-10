@@ -1,0 +1,145 @@
+{
+    "universities": [
+        {
+            "id": "university_id_1",
+            "name": "University of Southern California",
+            "rooms": [
+                {
+                    "id": "room_id_1",
+                    "type": "Lab",
+                    "name": "Experiment Room",
+                    "capacity": "20",
+                    "location": {
+                        "building": "Science",
+                        "floor": 2
+                    },
+                    "accessibilityFeatures": [
+                        "wheelchair accessible",
+                        "audio induction loop"
+                    ]
+                },
+                {
+                    "id": "room_id_2",
+                    "type": "Lecture",
+                    "name": "Lecture Room 1",
+                    "capacity": "100",
+                    "accessibilityFeatures": []
+                }
+            ],
+            "classes": [
+                {
+                    "id": "class_id_1",
+                    "title": "Physics 101",
+                    "room_id": "room_id_1",
+                    "timeslot": "Monday 08:00-09:30",
+                    "instructor": "instructor_id_1"
+                },
+                {
+                    "id": "class_id_2",
+                    "title": "Chemistry 101",
+                    "room_id": "room_id_1",
+                    "timeslot": "Monday 10:00-11:30",
+                    "instructor": "instructor_id_2"
+                },
+                {
+                    "id": "class_id_3",
+                    "title": "Physics 101 Repeat",
+                    "room_id": "room_id_1",
+                    "timeslot": "Tuesday 08:00-09:30",
+                    "instructor": "instructor_id_1"
+                },
+                {
+                    "id": "class_id_4",
+                    "title": "Accessible Science 101",
+                    "room_id": "room_id_1",
+                    "timeslot": "Monday 19:00-20:30",
+                    "instructor": "instructor_id_1"
+                },
+                {
+                    "id": "class_id_5",
+                    "title": "General Science 101",
+                    "room_id": "room_id_2",
+                    "timeslot": "Wednesday 08:00-09:30",
+                    "instructor": "instructor_id_2"
+                },
+                {
+                    "id": "class_id_6",
+                    "title": "Open Science 101",
+                    "room_id": "room_id_1",
+                    "timeslot": "Thursday 14:00-15:30",
+                    "instructor": "instructor_id_2"
+                },
+                {
+                    "id": "class_id_7",
+                    "title": "Biology 102",
+                    "room_id": "room_id_2",
+                    "timeslot": "Monday 00:00-02:30",
+                    "instructor": "instructor_id_2"
+                }
+            ],
+            "personnel": [
+                {
+                    "id": "instructor_id_1",
+                    "name": "Jon Smith, PhD",
+                    "role": "Head of Physics Department",
+                    "specializations": [],
+                    "accessibilityNeeds": [
+                        "wheelchair accessible"
+                    ]
+                },
+                {
+                    "id": "instructor_id_2",
+                    "name": "Jack Fever",
+                    "role": "Chemistry Professor",
+                    "specializations": [],
+                    "accessibilityNeeds": []
+                }
+            ]
+        },
+        {
+            "id": "university_id_2",
+            "name": "Harvard University",
+            "rooms": [
+                {
+                    "id": "room_id_1",
+                    "type": "Lab",
+                    "name": "Bio Lab",
+                    "capacity": "100",
+                    "accessibilityFeatures": []
+                },
+                {
+                    "id": "room_id_2",
+                    "type": "Lounge",
+                    "name": "Lounge",
+                    "capacity": "100",
+                    "accessibilityFeatures": []
+                }
+            ],
+            "classes": [
+                {
+                    "id": "class_id_1",
+                    "title": "Biology 101",
+                    "room_id": "room_id_1",
+                    "timeslot": "Thursday 08:00-11:30",
+                    "instructor": "instructor_id_1"
+                },
+                {
+                    "id": "class_id_2",
+                    "title": "Biology 101",
+                    "room_id": "room_id_1",
+                    "timeslot": "Tuesday 08:00-11:30",
+                    "instructor": "instructor_id_1"
+                }
+            ],
+            "personnel": [
+                {
+                    "id": "instructor_id_1",
+                    "name": "Nadav Gertel",
+                    "role": "Computer Science Professor",
+                    "specializations": [],
+                    "accessibilityNeeds": []
+                }
+            ]
+        }
+    ]
+}
